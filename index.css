@@ -1,0 +1,78 @@
+.main {
+  display: flex;
+  padding-top: 200px;
+  padding-left: 500px;
+}
+.boxmain2 {
+  display: inline;
+}
+
+.boxmain1 {
+  display: inline;
+}
+
+.boxout1 {
+  position: relative;
+  border: 2px solid red;
+  height: 100px;
+  width: 200px;
+}
+.boxout2 {
+  position: relative;
+  border: 2px solid green;
+  height: 100px;
+  width: 200px;
+}
+.boxout3 {
+  position: relative;
+  border: 2px solid yellow;
+  height: 100px;
+  width: 200px;
+}
+
+.boxin {
+  right: 0px;
+  bottom: 0px;
+  position: absolute;
+  border-left: 3px solid rgb(199, 60, 60);
+  border-top: 3px solid rgb(199, 60, 60);
+  width: 50px;
+  height: 50px;
+}
+.boxin2 {
+  right: 0px;
+  top: 0px;
+  position: absolute;
+
+  border-left: 3px solid rgb(199, 60, 60);
+  border-bottom: 3px solid rgb(199, 60, 60);
+  width: 50px;
+  height: 50px;
+}
+.boxin3 {
+  left: 0px;
+  bottom: 0px;
+  position: absolute;
+
+  border-right: 3px solid rgb(199, 60, 60);
+  border-top: 3px solid rgb(199, 60, 60);
+  width: 50px;
+  height: 50px;
+}
+.boxin4 {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+
+  border-right: 3px solid rgb(199, 60, 60);
+  border-bottom: 3px solid rgb(199, 60, 60);
+  width: 50px;
+  height: 50px;
+}
+
+.boxout4 {
+  position: relative;
+  width: 200px;
+  height: 100px;
+  border: 2px solid red;
+}
